@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+  background-color: gray;
 }
 
 h1,
@@ -7,73 +7,72 @@ h2,
 h3,
 h4,
 p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
-ul,
-{
-margin-top: 0;
-margin-bottom: 0;
-padding-left: 0;
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .flex {
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 /* ***************LOGO****************** */
 .logo-m {
-    font-family: 'Lemon', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 0px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: "Lemon", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 0px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .logo-link {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 0px;
-    text-align: center;
-    color: #FFFFFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 0px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .menu {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.25;
-    color: #FFFFFF;
-    opacity: 0.5;
-    padding: 30px;
-    border: 10px solid;
-    margin-left: 40px;
-
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+  opacity: 0.5;
+  padding: 30px;
+  border: 10px solid;
+  margin-left: 40px;
 }
 
 /* ***************HERO*************** */
-.hero {}
+.hero {
+}
 
 .hero-box {
-    display: inline-block;
+  display: inline-block;
 }
+/*==========FUTURE====================*/
