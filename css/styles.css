@@ -1,5 +1,6 @@
 body {
   background-color: gray;
+  font-family: "Mulish";
 }
 
 h1,
@@ -31,18 +32,39 @@ img {
 
 .flex {
   display: flex;
+  justify-content: center;
   align-items: center;
+   
+}
+.container{ 
+  width: 1600px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.header-box {
+  justify-content: space-between;
+}
 /* ***************LOGO****************** */
 .logo-m {
   font-family: "Lemon", cursive;
-  font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 0px;
-  text-align: center;
+  
   color: #ffffff;
+  border-radius: 14px;
+  border: 4px solid transparent;
+  background: linear-gradient(#000,#000) padding-box, linear-gradient(132.88deg, #326CFF 3.44%, #26FFF2 100%);
+  width: 70px;
+  height: 70px;
+ margin-right: 14px;
+
+  
+  
 }
 
 .logo-link {
@@ -50,22 +72,35 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
-  line-height: 0px;
-  text-align: center;
   color: #ffffff;
+ 
 }
 
 .menu {
-  font-family: "Mulish";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
-  color: #ffffff;
-  opacity: 0.5;
-  padding: 30px;
-  border: 10px solid;
+  
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-left: 40px;
+  gap: 50px;
+  
+}
+.menu-item {
+  opacity: 0.5;
+}
+.menu-item:is(:hover, :focus) {
+  color: #ffffff;
+  opacity: 1;
+}
+.head-icons {
+  gap:93px;
+}
+
+.link {
+  color: #ffffff;
+
 }
 
 /* ***************HERO*************** */
