@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Justice League</title>
   </head>
@@ -21,29 +25,46 @@
   <body>
     <header>
       <div class="container flex header-box">
-      <a class="logo-link flex link" href=""><span class="logo-m flex">M</span>box</a>
-      <nav>
-        <ul class="menu list flex">
-          <li><a class="menu-item link" href="">Home</a></li>
-          <li><a class="menu-item link" href="">TV Shows</a></li>
-          <li><a class="menu-item link" href="">Movies</a></li>
-          <li><a class="menu-item link" href="">Series</a></li>
+        <a class="logo-link flex link animate__animated animate__flash" href=""
+          ><span class="logo-m flex">M</span>box</a
+        >
+        <nav>
+          <ul class="menu list flex">
+            <li class="item"><a class="menu-item link" href="">Home</a></li>
+            <li class="item"><a class="menu-item link" href="">TV Shows</a></li>
+            <li class="item"><a class="menu-item link" href="">Movies</a></li>
+            <li class="item"><a class="menu-item link" href="">Series</a></li>
+          </ul>
+        </nav>
+        <ul class="head-icons list flex">
+          <li>
+            <button class="icon-btn" type="button">
+              <svg class="head-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-3"></use>
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button class="icon-btn" type="button">
+              <svg class="head-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-1"></use>
+              </svg>
+            </button>
+          </li>
+          <li>
+            <button class="icon-btn" type="button">
+              <svg class="head-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-2"></use>
+              </svg>
+            </button>
+          </li>
         </ul>
-      </nav>
-      <ul class="head-icons list flex">
-        <li><button type="button">Icon</button></li>
-        <li><button type="button">Icon</button></li>
-        <li><button type="button">Icon</button></li>
-      </ul>
       </div>
     </header>
     <main>
       <section class="hero flex">
         <div class="hero-box">
-          <h1>
-            Zack Snyder's <br />
-            Justice League
-          </h1>
+          <h1>Zack Snyder's Justice League</h1>
           <ul class="flex list">
             <li>
               <p>2021</p>
@@ -72,7 +93,9 @@
 
         <img src="./images/bghero.jpg" alt="heroes justice" />
       </section>
+
       <!-- *******************   TV SHOVS -->
+
       <section>
         <h2>Trending TV Shows</h2>
         <ul class="flex list">
@@ -111,7 +134,9 @@
           </li>
         </ul>
       </section>
+
       <!--************************ MOOVIES-->
+
       <section>
         <h2>Trending Movies</h2>
         <ul class="flex list">
@@ -153,6 +178,7 @@
       </section>
 
       <!-- ******************* GENRES -->
+
       <section>
         <h2>Popular Genres</h2>
         <ul class="flex" style="background-color: grey">
@@ -210,7 +236,9 @@
           </li>
         </ul>
       </section>
+
       <!-- *************** ACTORS -->
+
       <section>
         <h2 class="">Popular Actors & Directors</h2>
         <ul class="flex" style="background-color: #4e85a3">
@@ -270,7 +298,9 @@
           </li>
         </ul>
       </section>
+
       <!--******************** FUTURE -->
+
       <section>
         <h2 hidden>future projects</h2>
         <div>
