@@ -16,9 +16,11 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1s.1/animate.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
     <title>Justice League</title>
   </head>
 
@@ -28,15 +30,63 @@
         <a class="logo-link flex link animate__animated animate__flash" href=""
           ><span class="logo-m flex">M</span>box</a
         >
-        <nav>
+        <!-- <nav>
           <ul class="menu list flex">
             <li class="item"><a class="menu-item link" href="">Home</a></li>
             <li class="item"><a class="menu-item link" href="">TV Shows</a></li>
             <li class="item"><a class="menu-item link" href="">Movies</a></li>
             <li class="item"><a class="menu-item link" href="">Series</a></li>
           </ul>
-        </nav>
-        <ul class="head-icons list flex">
+        </nav> -->
+
+        <!-- ПЕРЕВИКОРИСТАННЯ СТИЛІВ ДЛЯ МЕНЮ -->
+
+        <div class="mob-menu js-menu-container">
+          <button type="button" class="js-close-menu btn">
+            <svg class="menu-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-btn"></use>
+            </svg>
+          </button>
+
+          <nav>
+            <ul class="menu list flex">
+              <li class="item"><a class="menu-item link" href="">Home</a></li>
+              <li class="item">
+                <a class="menu-item link" href="">TV Shows</a>
+              </li>
+              <li class="item"><a class="menu-item link" href="">Movies</a></li>
+              <li class="item"><a class="menu-item link" href="">Series</a></li>
+            </ul>
+          </nav>
+
+          <ul class="head-icons list flex">
+            <li>
+              <button class="icon-btn" type="button">
+                <svg class="head-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-3"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button class="icon-btn" type="button">
+                <svg class="head-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-1"></use>
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button class="icon-btn" type="button">
+                <svg class="head-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-2"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- ПЕРЕВИКОРИСТАННЯ СТИЛІВ ДЛЯ МЕНЮ -->
+
+        <!-- <ul class="head-icons list flex">
           <li>
             <button class="icon-btn" type="button">
               <svg class="head-icon" width="20" height="20">
@@ -58,7 +108,13 @@
               </svg>
             </button>
           </li>
-        </ul>
+        </ul> -->
+
+        <button type="button" class="open-menu js-open-menu">
+          <svg class="open-menu-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu-open-btn"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -367,5 +423,25 @@
         </ul>
       </div>
     </footer>
+
+    <!-- Мобільне меню -->
+    <!-- <div class="mob-menu js-menu-container visually-hidden">
+      <button type="button" class="js-close-menu btn">
+        <svg class="menu-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-btn"></use>
+        </svg>
+      </button>
+
+      <nav>
+        <ul class="menu list flex">
+          <li class="item"><a class="menu-item link" href="">Home</a></li>
+          <li class="item"><a class="menu-item link" href="">TV Shows</a></li>
+          <li class="item"><a class="menu-item link" href="">Movies</a></li>
+          <li class="item"><a class="menu-item link" href="">Series</a></li>
+        </ul>
+      </nav>
+    </div> -->
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
