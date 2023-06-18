@@ -35,10 +35,18 @@ img {
   justify-content: center;
   align-items: center;
 }
-.container {
-  width: 1600px;
-  padding-left: 80px;
-  padding-right: 80px;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 header {
@@ -48,6 +56,55 @@ header {
 .header-box {
   justify-content: space-between;
 }
+
+/* Header menu */
+.open-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.open-menu-icon {
+  stroke: white;
+}
+
+.mob-menu.is-open {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 24px 24px 40px 40px;
+}
+
+.js-close-menu {
+  display: none;
+}
+
+.mob-menu {
+  display: flex;
+}
+
+.mob-menu.is-open .js-close-menu {
+  display: block;
+}
+
+.mob-menu.is-open .menu {
+  display: block;
+}
+
+.mob-menu.is-open .head-icons {
+  display: block;
+}
+
+.mob-menu.is-open .head-icon {
+  fill: black;
+}
+
+.mob-menu.is-open .menu-item {
+  color: black;
+}
+
 /* ***************LOGO****************** */
 .logo-m {
   font-family: "Lemon", cursive;
@@ -73,14 +130,7 @@ header {
 }
 
 .menu {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.25;
-
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-left: 40px;
-  gap: 50px;
+  display: none;
 }
 
 .menu-item {
@@ -108,7 +158,7 @@ header {
 }
 
 .head-icons {
-  gap: 93px;
+  display: none;
 }
 
 .icon-btn {

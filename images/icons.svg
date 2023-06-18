@@ -27,5 +27,11 @@
         stroke-width="2"
         d="M27 27l-6.634-6.634"></path>
     </symbol>
+    <symbol id="icon-menu-open-btn" viewBox="0 0 47 32">
+    <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.962 29.161h42.984M1.962 15.616h42.984M1.962 2.072h42.984"></path>
+    </symbol>
+    <symbol id="icon-close-btn" viewBox="0 0 32 32">
+      <path d="M32.015 3.225l-3.225-3.225-12.782 12.782-12.782-12.782-3.225 3.225 12.782 12.782-12.782 12.782 3.225 3.225 12.782-12.782 12.782 12.782 3.225-3.225-12.782-12.782 12.782-12.782z"></path>
+    </symbol>
   </defs>
 </svg>
